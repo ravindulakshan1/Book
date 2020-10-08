@@ -55,6 +55,21 @@
             <button class="button" id="signup">sign up</button>
           </div>
         </div>
+
+        <style>
+            var pinkbox = document.getElementsByClassName('pinkbox')
+                        $('#signup').click(function() {
+                $('.pinkbox').css('transform', 'translateX(80%)');
+                $('.signin').addClass('nodisplay');
+                $('.signup').removeClass('nodisplay');
+            });
+            
+            $('#signin').click(function() {
+                $('.pinkbox').css('transform', 'translateX(0%)');
+                $('.signup').addClass('nodisplay');
+                $('.signin').removeClass('nodisplay');
+            });
+        </style>
        </div>
       
       </div>
