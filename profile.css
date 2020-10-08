@@ -48,11 +48,12 @@ body {
 .circle {
     border-radius: 1000px !important;
     overflow: hidden;
-    width: 128px;
-    height: 128px;
+    width: 200px;
+    height: 200px;
     border: 8px solid rgba(255, 255, 255, 0.7);
     position: absolute;
     top: 72px;
+    margin-left:  50px;
 }
 img {
     max-width: 100%;
@@ -60,11 +61,13 @@ img {
 }
 .p-image {
   position: absolute;
-  top: 167px;
-  right: 30px;
+  top: 200px;
+  right: 50px;
   color: #471a1a;
+  font-size:48px;
   transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
 }
+
 .p-image:hover {
   transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
 }
@@ -74,5 +77,5 @@ img {
 
 .upload-button:hover {
   transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
-  color: #999;
+  color: rgb(206, 183, 183);
 }
