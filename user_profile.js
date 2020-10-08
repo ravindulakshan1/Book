@@ -9,3 +9,9 @@ $('#signup').click(function() {
     $('.signup').addClass('nodisplay');
     $('.signin').removeClass('nodisplay');
   });
+
+
+  function upmyfunction(){
+      document.getElementById("pinkbox");
+      
+  }
