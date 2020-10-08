@@ -7,10 +7,11 @@ body {
     margin-top: 10px;
     margin-left: 10px;
     margin-right: 10px;
-    max-width: 100%;
+    max-width: 1350px;
     height:540px;
     position: relative;
     background: #8E9AAF;
+    
   }
   
   .welcome {
@@ -18,7 +19,7 @@ body {
     width: 1125px;
     height: 400px;
     position: absolute;
-    top: 8%;
+    top: 9%;
     border-radius: 5px;
     box-shadow: 5px 5px 5px rgba(0,0,0,.1);
     margin-left: 100px;
@@ -26,7 +27,7 @@ body {
 
   .pinkbox {
     position: absolute;
-    top: -20px;
+    top: -25px;
     left: 5%;
     background: rgb(247, 149, 181);
     width: 320px;
