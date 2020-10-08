@@ -1,0 +1,36 @@
+body {
+    background: lavender;
+  }
+
+  .container {
+    margin: 10px;
+    max-width: 100%;
+    height: 700px;
+    position: relative;
+    background: #8E9AAF;
+  }
+  
+  .welcome {
+    background: white;
+    width: 650px;
+    height: 415px;
+    position: absolute;
+    top: 25%;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,.1);
+    margin-left: 100px;
+  }
+
+  .pinkbox {
+    position: absolute;
+    top: -10%;
+    left: 5%;
+    background: rgb(247, 149, 181);
+    width: 320px;
+    height: 500px;
+    border-radius: 5px;
+    box-shadow: 2px 0 10px rgba(0,0,0,.1);
+    transition: all .5s ease-in-out;
+    z-index: 2;
+  }
+  
