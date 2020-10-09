@@ -219,8 +219,8 @@ img {
   .fav_book {
     background: white;
     width: 1100px;
-    height: 415px;
-    position: absolute;
+    height: 200px;
+    position: relative;
     top: 120%;
     border-radius: 5px;
     box-shadow: 5px 5px 5px rgba(0,0,0,.1);
@@ -237,9 +237,14 @@ img {
     box-shadow: 5px 5px 5px rgba(0,0,0,.1);
     color: rgba(255, 255, 255, 0.7);
     text-align: center;
-    text-shadow: ;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
     
   }
   
   .fav_book_head {
-    left: -2%;
+    left: 2%;
+  }
