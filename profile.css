@@ -248,5 +248,32 @@ img {
   .fav_book_head {
     left: 2%;
   }
+.search_box{
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  float: left;
+  
+}
 
+
+.title{
+  display: flex;
+  flex-direction: column;
+  float: left;
+  width: 50%;
+}
+
+.search_box{
+  display: flex;
+  flex-direction: column;
+  float: left;
+ 
+}
+
+.button-addon1{
+  display: flex;
+  flex-direction: column;
+  text
+}
   
